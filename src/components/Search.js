@@ -4,31 +4,29 @@ import axios from 'axios'
 import SearchForm from './SearchForm';
 // import ShowFlights from './ShowFlights';
 
-const SERVER_URL = 'http://localhost:3000/flights.json'
+const SERVER_URL = 'https://burningairlinesserver.herokuapp.com/flights.json'
 
 class Search extends Component {
 
   constructor() {
     super();
     this.state = {flights: []};
-    // this.fetchFlights = this.fetchFlights.bind(this);
+    this.fetchFlights = this.fetchFlights.bind(this);
   }
 
-  componentDidMount() {
-    const fetchFlights = (o, d) => {
+  fetchFlights(o, d) {
 
-      let validFlights = [];
-      axios(SERVER_URL).then((result) => {
-      console.log(result.data)
-      for (let i = 0; i < result.data.length; i++) {
-        if (result.data[i].origin === o && result.data[i].destination === d) {
-          validFlights.push(result.data[i]);
-        }
+    let validFlights = [];
+    axios(SERVER_URL).then((result) => {
+    console.log(result.data)
+    for (let i = 0; i < result.data.length; i++) {
+      if (result.data[i].origin === o && result.data[i].destination === d) {
+        validFlights.push(result.data[i]);
       }
-      });
-      this.setState({origin: o, destination: d, flights: validFlights});
     }
-    fetchFlights();
+    this.setState({origin: o, destination: d, flights: validFlights});
+    });
+
   }
 
   render() {
@@ -43,12 +41,11 @@ class Search extends Component {
 }
 
 const ShowFlights = (props) => {
-  console.log('click');
   return (
     <div>
       {props.flights.map((f) =>
         <ul>
-          <li key={f.id}>Flight leaves from {f.origin} to {f.destination} on the {f.date}.</li>
+          <li key={f.id}>Flight will leave from {f.origin} to {f.destination} on the {f.date}.</li>
         </ul>
       )}
     </div>
