@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/burning-airlines-client/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/burning-airlines-client/static/js/main.4cb3a2cf.chunk.js",
-    "main.js.map": "/burning-airlines-client/static/js/main.4cb3a2cf.chunk.js.map",
-    "runtime-main.js": "/burning-airlines-client/static/js/runtime-main.18567183.js",
-    "runtime-main.js.map": "/burning-airlines-client/static/js/runtime-main.18567183.js.map",
-    "static/js/2.932246cc.chunk.js": "/burning-airlines-client/static/js/2.932246cc.chunk.js",
-    "static/js/2.932246cc.chunk.js.map": "/burning-airlines-client/static/js/2.932246cc.chunk.js.map",
-    "static/js/3.57dec11f.chunk.js": "/burning-airlines-client/static/js/3.57dec11f.chunk.js",
-    "static/js/3.57dec11f.chunk.js.map": "/burning-airlines-client/static/js/3.57dec11f.chunk.js.map",
-    "index.html": "/burning-airlines-client/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/burning-airlines-client/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.932246cc.chunk.js.LICENSE.txt": "/burning-airlines-client/static/js/2.932246cc.chunk.js.LICENSE.txt"
+    "main.css": "/burning-airline-client/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/burning-airline-client/static/js/main.4cb3a2cf.chunk.js",
+    "main.js.map": "/burning-airline-client/static/js/main.4cb3a2cf.chunk.js.map",
+    "runtime-main.js": "/burning-airline-client/static/js/runtime-main.91fe0099.js",
+    "runtime-main.js.map": "/burning-airline-client/static/js/runtime-main.91fe0099.js.map",
+    "static/js/2.932246cc.chunk.js": "/burning-airline-client/static/js/2.932246cc.chunk.js",
+    "static/js/2.932246cc.chunk.js.map": "/burning-airline-client/static/js/2.932246cc.chunk.js.map",
+    "static/js/3.57dec11f.chunk.js": "/burning-airline-client/static/js/3.57dec11f.chunk.js",
+    "static/js/3.57dec11f.chunk.js.map": "/burning-airline-client/static/js/3.57dec11f.chunk.js.map",
+    "index.html": "/burning-airline-client/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/burning-airline-client/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.932246cc.chunk.js.LICENSE.txt": "/burning-airline-client/static/js/2.932246cc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.18567183.js",
+    "static/js/runtime-main.91fe0099.js",
     "static/js/2.932246cc.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
     "static/js/main.4cb3a2cf.chunk.js"
