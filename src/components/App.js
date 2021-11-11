@@ -1,6 +1,7 @@
 import Search from './Search'
 import Reservations from './Reservations'
 import '../App.css'
+import Airplane from './Airplane'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <em>We put the AAAAAAAAAAAAAAAAAAAAAAHHHH in adventure.</em>
       <Search />
       <Reservations/>
+      <Airplane />
     </div>
   );
 }

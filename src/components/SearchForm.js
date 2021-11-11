@@ -37,7 +37,7 @@ class SearchForm extends Component {
           Destination
         </label>
         <input type='search' required placeholder='Hobart' onChange={this._handleChangeDestination} />
-        <input type='submit' value={'Search for Flights'} />
+        <input type='submit' value={'Search for Flights'}/>
       </form>
     )
   }
