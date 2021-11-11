@@ -1,8 +1,10 @@
-import Search from './Search'
+import Search from "./Search";
+import SignIn from "./SignIn";
 
 function App() {
   return (
     <div>
+      <SignIn />
       <h1>BURNING AIRLINES</h1>
       <em>We put the AAAAAAAAAAAAAAAAAAAAAAHHHH in adventure.</em>
       <ol>
