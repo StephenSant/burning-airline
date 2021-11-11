@@ -1,15 +1,16 @@
-import Search from './Search'
-import Reservations from './Reservations'
-import '../App.css'
-import Airplane from './Airplane'
+import Search from "./Search";
+import Reservations from "./Reservations";
+import "../App.css";
+import Airplane from "./Airplane";
 
 function App() {
   return (
     <div>
+      <SignIn />
       <h1>BURNING AIRLINES</h1>
       <em>We put the AAAAAAAAAAAAAAAAAAAAAAHHHH in adventure.</em>
       <Search />
-      <Reservations/>
+      <Reservations />
       <Airplane />
     </div>
   );
