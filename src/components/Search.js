@@ -24,7 +24,7 @@ class Search extends Component {
   render() {
     return (
       <div>
-        <h1>Search coming soon</h1>
+        <h2>Search coming soon</h2>
         <SearchForm onSubmit={this.fetchFlights}/>
         <ShowFlights flights={this.state.flights} destination={this.state.destination} origin={this.state.origin}/>
       </div>
