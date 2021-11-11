@@ -25,7 +25,7 @@ class Reservations extends Component {
   render() {
    return (
     <div>
-      <h2>Reservations coming soon</h2>
+      <h2>Reservations</h2>
       <table>
         <tr>
           <td onClick={this.boxClick}>A1</td>
