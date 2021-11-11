@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import axios from 'axios'
 
 import SearchForm from './SearchForm';
-// import ShowFlights from './ShowFlights';
 
 const SERVER_URL = 'https://burningairlinesserver.herokuapp.com/flights.json'
 
@@ -32,7 +31,7 @@ class Search extends Component {
   render() {
     return (
       <div>
-        <h1>Search coming soon</h1>
+        <h1>Search Flights</h1>
         <SearchForm onSubmit={this.fetchFlights}/>
         <ShowFlights flights={this.state.flights}/>
       </div>

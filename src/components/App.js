@@ -1,4 +1,5 @@
 import Search from './Search'
+import Airplane from './Airplane'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <li>User will select a seat.</li>
       </ol>
       <Search />
+      <Airplane />
     </div>
   );
 }
